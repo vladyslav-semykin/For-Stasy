@@ -1,0 +1,96 @@
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --acent-color: yellow;
+  --main-color: #ffffff;
+  --btn-back-color: #188ce8;
+  --footer-backgroun-color: #2f303a;
+  --usually-text-color: #757575;
+  --headline-color: #212121;
+  --secondary-back-color: #2f303a;
+  --third-back-color: #f5f4fa;
+  --main-black-color: #000000;
+  --footer-links-color: rgba(255, 255, 255, 0.6);
+  --service-item-color: #eeeeee;
+  --icon-color: #afb1b8;
+  --contacts-color: #757575;
+  --section-pt: 94px;
+  --section-pb: 94px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.address {
+  font-style: normal;
+}
+
+.address-list {
+  margin-top: 20px;
+}
+
+body {
+  font-family: var(--main-font);
+  background: var(--acent-color);
+  width: 1200px;
+}
+
+.header {
+  max-width: 600px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 500px;
+}
+
+.first-name {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.second-name {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-top: px;
+}
