@@ -28,8 +28,8 @@ ol {
 :root {
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
-  --acent-color: yellow;
-  --main-color: #ffffff;
+  --acent-color: gold;
+  --main-color: yellow;
   --btn-back-color: #188ce8;
   --footer-backgroun-color: #2f303a;
   --usually-text-color: #757575;
@@ -63,11 +63,12 @@ ol {
 
 body {
   font-family: var(--main-font);
-  background: var(--acent-color);
-  max-width: 1000px;
-  margin-left: 50px;
-  margin-right: 50px;
+  background: var(--main-color);
+  width: 1000px;
+  margin-left: 400px;
+  margin-right: 400px;
   text-align: center;
+  border: solid 1px var(--usually-text-color);
 }
 
 .header {
@@ -76,7 +77,9 @@ body {
   text-align: center;
   flex-direction: column;
   align-items: center;
-  margin-left: 500px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-left: 300px;
 }
 
 .first-name {
@@ -101,7 +104,6 @@ body {
 }
 
 .main-menu {
-  margin-left: 500px;
 }
 
 .photo {
@@ -123,5 +125,12 @@ body {
   color: #212121;
   margin-top: 100px;
   margin-bottom: 40px;
-  margin-left: 500px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.main-menu {
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: var(--main-color);
 }
