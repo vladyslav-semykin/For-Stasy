@@ -65,8 +65,8 @@ body {
   font-family: var(--main-font);
   background: var(--main-color);
   width: 1000px;
-  margin-left: 400px;
-  margin-right: 400px;
+  margin-left: 200px;
+  margin-right: 200px;
   text-align: center;
   border: solid 1px var(--usually-text-color);
 }
